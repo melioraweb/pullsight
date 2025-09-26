@@ -1,0 +1,149 @@
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>PullSight AI Team Invitation</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f7fa;
+                line-height: 1.6;
+            }
+            .container {
+                background: white;
+                border: 1px solid #e1e8ed;
+                padding: 30px;
+                border-radius: 10px;
+                max-width: 600px;
+                margin: auto;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .logo {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .logo h1 {
+                color: #1a73e8;
+                font-size: 28px;
+                margin: 0;
+                font-weight: 600;
+            }
+            .header {
+                font-size: 22px;
+                margin-bottom: 20px;
+                font-weight: 600;
+                color: #333;
+                text-align: center;
+            }
+            .content {
+                color: #555;
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            .details {
+                background: #f8f9fa;
+                padding: 20px;
+                border-radius: 8px;
+                margin: 20px 0;
+                border-left: 4px solid #1a73e8;
+            }
+            .details p {
+                margin: 8px 0;
+                color: #333;
+            }
+            .details strong {
+                color: #1a73e8;
+            }
+            .join-button {
+                text-align: center;
+                margin: 30px 0;
+            }
+            .join-button a {
+                display: inline-block;
+                background: linear-gradient(135deg, #1a73e8, #0d47a1);
+                color: white;
+                padding: 15px 30px;
+                text-decoration: none;
+                border-radius: 6px;
+                font-weight: 600;
+                font-size: 16px;
+                transition: all 0.3s ease;
+                box-shadow: 0 2px 8px rgba(26, 115, 232, 0.3);
+            }
+            .join-button a:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 16px rgba(26, 115, 232, 0.4);
+                background: linear-gradient(135deg, #0d47a1, #1a73e8);
+            }
+            .platform-badge {
+                display: inline-block;
+                background: #e8f0fe;
+                color: #1a73e8;
+                padding: 4px 12px;
+                border-radius: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                margin: 0 5px;
+            }
+            .footer {
+                text-align: center;
+                font-size: 14px;
+                color: #777;
+                margin-top: 30px;
+                padding-top: 20px;
+                border-top: 1px solid #eee;
+            }
+            .message-content {
+                background: white;
+                border: 1px solid #e8f0fe;
+                padding: 15px;
+                border-radius: 6px;
+                margin-top: 10px;
+                font-style: italic;
+                color: #444;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='logo'>
+                <h1>PullSight AI</h1>
+            </div>
+
+            <div class='header'>You Have a Team Invitation</div>
+
+            <div class='content'>
+                <p>Hello <strong>{{name}}</strong>,</p>
+                <p>You have been invited to join the
+                    <strong>{{organization}}</strong>
+                    team on
+                    <span class='platform-badge'>{{platform}}</span></p>
+                <p>PullSight AI helps teams collaborate more effectively with
+                    intelligent code insights and automated workflows.</p>
+            </div>
+
+            <div class='join-button'>
+                <a href='{{joinLink}}' target='_blank'>Join Team Now</a>
+            </div>
+
+            <div class='content'>
+                <p>Once you join, you'll have access to:</p>
+                <ul>
+                    <li>Advanced code review tools</li>
+                    <li>AI-powered insights and suggestions</li>
+                    <li>Team collaboration features</li>
+                    <li>Automated workflow management</li>
+                </ul>
+            </div>
+
+            <div class='footer'>
+                <p>This invitation was sent to
+                    {{email}}. If you didn't expect this invitation, please
+                    ignore this email.</p>
+                <p>© 2025 PullSight AI. All rights reserved.</p>
+            </div>
+        </div>
+    </body>
+</html>

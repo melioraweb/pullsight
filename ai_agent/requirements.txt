@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+httpx
+pydantic
+groq
+google-generativeai
+anthropic
+PyYAML
+tiktoken

@@ -1,0 +1,36 @@
+# vscode
+/.vscode
+
+# Input files and logs (local development data)
+ai_agent/inputs/
+ai_agent/logs/
+logs/
+*.log
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
