@@ -71,7 +71,7 @@ Some of the reviews done by PullSight after integration with your own applicatio
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/melioraweb/pullsight-oss
+git clone https://github.com/melioraweb/pullsight
 cd pullsightai
 ```
 
@@ -601,15 +601,15 @@ We welcome community contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md
 
 **Getting Support:**
 
-- Check the [Issues](https://github.com/melioraweb/pullsight-oss/issues) page
+- Check the [Issues](https://github.com/melioraweb/pullsight/issues) page
 - Create a new issue if you encounter problems
 - Provide logs and configuration details when asking for help
 
 ## � Stay Connected
 
 - 🌍 **Website**: [pullsight.ai](https://pullsight.ai)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/melioraweb/pullsight-oss/issues)
-- � **Discussions**: [GitHub Discussions](https://github.com/melioraweb/pullsight-oss/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/melioraweb/pullsight/issues)
+- � **Discussions**: [GitHub Discussions](https://github.com/melioraweb/pullsight/discussions)
 
 ## ⭐ Star History
 
