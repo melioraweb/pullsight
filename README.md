@@ -589,11 +589,6 @@ Make sure all `.env.docker` files are properly configured before running `docker
 
 We welcome community contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🆘 Need Help?
 
