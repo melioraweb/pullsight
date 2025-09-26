@@ -229,9 +229,7 @@ Example with ngrok:
 Callback URL : http://localhost:3333/v1/auth/github/callback
 
 ```
-
-3. **Set Permissions**
-
+3. Set Permissions
 ```
 
 Account → Read ✅
@@ -399,9 +397,6 @@ BACKEND_REVIEW_ENDPOINT=http://pullsightai-backend:3333/v1/analysis/reviews
 
 # AI Model Configuration
 DEFAULT_MODEL_NAME=claude-3-sonnet-20240229
-
-# Service Configuration
-PORT=8030
 ```
 
 **Frontend (.env.docker for Docker development):**
