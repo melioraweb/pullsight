@@ -2,7 +2,12 @@
 
 PullSight AI is an open-source, AI-powered pull request reviewer designed to streamline and improve code reviews using advanced Large Language Models. It integrates seamlessly with GitHub and Bitbucket, delivering smart, contextual feedback directly within your version control workflow to boost code quality and speed up development.
 
-This repository provides the open-source edition of [PullSight AI](https://pullsight.ai/). For enhanced features, you can try the redesigned Pro version at [app.pullsight.ai](https://app.pullsight.ai/), which delivers even more effective reviews that adapt and improve based on your usage.
+This repository provides the open-source edition of [PullSight AI](https://pullsight.ai/). For enhanced features, you can try the redesigned Pro version at [app.pullsight.ai](https://app.pullsight.ai/), which delivers even more effecti## 📞 Stay Connected
+
+- 🌍 **Website**: [pullsight.ai](https://pullsight.ai)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/melioraweb/pullsight/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/melioraweb/pullsight/discussions)
+- 👥 **Discord**: [Join our community](https://discord.com/invite/Bg4SszVgnC)views that adapt and improve based on your usage.
 
 ## 🚀 Features
 
@@ -32,23 +37,14 @@ Some of the reviews done by PullSight after integration with your own applicatio
 
 ![Code Suggestion](https://imgur.com/yKkMP7L.png)
 
-## 🔧 Prerequisite
+## 🔧 Prerequisites
 
-- 🧩 **Modular AI Agents\*⚠️ **Important Notes:\*\*
-
-- **Ngrok URL Updates**: When ngrok restarts, you MUST update:
-  1. All `.env.local` files (for local development)
-  2. GitHub App settings (Homepage, Authorization callback, Webhook URLs)
-  3. GitHub OAuth App settings (Homepage, Authorization callback URLs)
-  4. Bitbucket OAuth Consumer settings (Callback URL)
-- **Environment Files**: Use `.env.local` for local development without Docker, `.env.docker` for Docker development
-- **GitHub App Public**: Ensure your GitHub App is set to PUBLIC in Advanced settings
-- **Database Tools**: Use MongoDB Compass to inspect database during development
-- **Port Conflicts**: Ensure ports 3000, 3333, 8030 are not used by other applicationsased)
-- ⚙️ **Clean NestJS API Backend**
-- 🌐 **Next.js Frontend**
-- 🧠 **Prompt Orchestration**
-- 📦 **MongoDB**
+- **Node.js 18+** and npm/yarn
+- **Python 3.9+**
+- **MongoDB** (local or cloud)
+- **Git**
+- **Claude API Key** from [Anthropic Console](https://console.anthropic.com/)
+- **ngrok** for local development tunneling
 
 ## 📦 Tech Stack
 
@@ -60,13 +56,6 @@ Some of the reviews done by PullSight after integration with your own applicatio
 | Database  | MongoDB         |
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm/yarn
-- Python 3.9+
-- MongoDB (local or cloud)
-- Git
 
 ### 1. Clone the Repository
 
@@ -588,7 +577,6 @@ Make sure all `.env.docker` files are properly configured before running `docker
 ## 🤝 Contributing
 
 We welcome community contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
 
 ## 🆘 Need Help?
 
