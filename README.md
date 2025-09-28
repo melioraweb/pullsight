@@ -2,12 +2,14 @@
 
 PullSight AI is an open-source, AI-powered pull request reviewer designed to streamline and improve code reviews using advanced Large Language Models. It integrates seamlessly with GitHub and Bitbucket, delivering smart, contextual feedback directly within your version control workflow to boost code quality and speed up development.
 
-This repository provides the open-source edition of [PullSight AI](https://pullsight.ai/). For enhanced features, you can try the redesigned Pro version at [app.pullsight.ai](https://app.pullsight.ai/), which delivers even more effecti## 📞 Stay Connected
+This repository provides the open-source edition of [PullSight AI](https://pullsight.ai/). For enhanced features, you can try the redesigned Pro version at [app.pullsight.ai](https://app.pullsight.ai/), which delivers even more effective reviews that adapt and improve based on your usage.
+
+## 📞 Stay Connected
 
 - 🌍 **Website**: [pullsight.ai](https://pullsight.ai)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/melioraweb/pullsight/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/melioraweb/pullsight/discussions)
-- 👥 **Discord**: [Join our community](https://discord.com/invite/Bg4SszVgnC)views that adapt and improve based on your usage.
+- 👥 **Discord**: [Join our community](https://discord.com/invite/Bg4SszVgnC)
 
 ## 🚀 Features
 
